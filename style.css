@@ -740,4 +740,20 @@ footer h3 {
 
     font-size: 25px;
 
+}@media (max-width: 768px) {
+
+nav {
+    display: none;
+    flex-direction: column;
+}
+
+nav.active {
+    display: flex;
+}
+
+.burger {
+    display: block;
+    cursor: pointer;
+}
+
 }
